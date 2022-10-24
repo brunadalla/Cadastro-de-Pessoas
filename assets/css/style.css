@@ -146,14 +146,15 @@ aside>ul::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
 }
 
-aside>ul>li {
+li {
     display: flex;
-    color: #fff;
     justify-content: space-between;
+    color: #fff;
     padding: 20px;
     border: 2px solid #2e5a87;
     border-radius: 5px;
     margin: 5px;
+    font-size: 12px;
 }
 
 aside>ul>li:hover {
